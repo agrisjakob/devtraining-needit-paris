@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="AMI Request" max_length="40" name="x_58872_needit_ami_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="AMI ID" max_length="40" name="u_ami_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AWS Destination Account" max_length="40" name="u_destination_account" type="string"/>
+        <element label="File Attachment" max_length="40" name="u_file_attachment" type="file_attachment"/>
+        <element attributes="encode_utf8=false" label="Approver" max_length="32" name="u_reference_5" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="RFC Number" max_length="40" name="u_rfc_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="AWS Source Account" max_length="40" name="u_source_account" type="string"/>
+    </element>
+</database>
